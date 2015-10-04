@@ -1,0 +1,26 @@
+{
+    "name": "bolt/bolt-extension-starter",
+    "description": "A port of my Blog theme for Bolt",
+    "type": "bolt-theme",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Fyfe",
+            "email": "dev@stuartfyfe.uk"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Fyfey\\MyTheme\\": ""
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}
